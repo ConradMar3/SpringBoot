@@ -25,7 +25,6 @@ import org.springframework.validation.Errors;
 @RequestMapping("/design")
 @SessionAttributes("tacoOrder")
 public class DesignTacoController {
-
 	@ModelAttribute
 	public void addIngredientsToModel(Model model) {
 		List<Ingredient> ingredients = Arrays.asList(new Ingredient("FLTO", "Flour Tortilla", Type.WRAP),
@@ -56,13 +55,14 @@ public class DesignTacoController {
 		return "design";
 	}
 
-	  @PostMapping public String processTaco(Taco taco,
-	 
-	  @ModelAttribute TacoOrder tacoOrder) { tacoOrder.addTaco(taco);
-	  log.info("Processing taco: {}", taco);
-	 
-	  return "redirect:/orders/current"; }
-	 
+	/*
+	 * @PostMapping public String processTaco(Taco taco,
+	 * 
+	 * @ModelAttribute TacoOrder tacoOrder) { tacoOrder.addTaco(taco);
+	 * log.info("Processing taco: {}", taco);
+	 * 
+	 * return "redirect:/orders/current"; }
+	 */
 
 	@PostMapping
 	public String processTaco(@Valid Taco taco, Errors errors, @ModelAttribute TacoOrder tacoOrder) {

@@ -1,19 +1,11 @@
 package tacos;
 
 import java.util.List;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 import lombok.Data;
 
 @Data
 public class Taco {
-	
-	<h3>Designate your wrap:</h3>
-	{{#wrap}}
-	<div>
-	 <input name="ingredients" type="checkbox" value="{{id}}" />
-	 <span>{{name}}</span><br/>
-	</div>
-	{{/wrap}}
+	private String name;
 
+	private List<Ingredient> ingredient;
 }

@@ -1,16 +1,13 @@
 package tacos;
 
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@ExtendWith(SpringExtension.class) // <1>
-@SpringBootTest // <2>
+@SpringBootApplication
 public class TacoCloudApplication {
 
-	@Test // <3>
-	public void contextLoads() {
+	public static void main(String[] args) {
+		SpringApplication.run(TacoCloudApplication.class, args);
 	}
 
 }
