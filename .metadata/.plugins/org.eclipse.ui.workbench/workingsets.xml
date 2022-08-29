@@ -3,7 +3,20 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1651164991368_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1651164991460_1" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652107429165_4" label="taco-cloud-sd-mongodb" name="taco-cloud-sd-mongodb"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661780192475_7" label="taco-cloud-parent" name="taco-cloud-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/taco-cloud-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-data" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-domain" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-restclient" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-security" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-ui" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661781433730_8" label="taco-cloud1" name="taco-cloud1"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1651165011219_2" label="Window Working Set" name="Aggregate for window 1651165011210"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652106421275_3" label="Window Working Set" name="Aggregate for window 1652106421275"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1655913402492_5" label="Window Working Set" name="Aggregate for window 1655913402492"/>
+<mruList name="taco-cloud1"/>
 </workingSetManager>
