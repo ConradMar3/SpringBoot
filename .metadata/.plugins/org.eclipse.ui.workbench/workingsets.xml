@@ -14,7 +14,9 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-web" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tacocloud-ui" type="4"/>
 </workingSet>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661781433730_8" label="taco-cloud1" name="taco-cloud1"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661781433730_8" label="taco-cloud1" name="taco-cloud1">
+<item elementID="=taco-cloud1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1651165011219_2" label="Window Working Set" name="Aggregate for window 1651165011210"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652106421275_3" label="Window Working Set" name="Aggregate for window 1652106421275"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1655913402492_5" label="Window Working Set" name="Aggregate for window 1655913402492"/>
